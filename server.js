@@ -79,7 +79,7 @@ const complainRoute   = require('./src/routes/complaint.routes');
 
 // connect to database
 // const MONGODB_URI = 'mongodb://127.0.0.1:27017/atbu';
-const MONGODB_URI = 'mongodb+srv://abdulbasidhussain:nazeef123@cluster0.yflxqwa.mongodb.net/atbu?retryWrites=true&w=majority&appName=Cluster0';
+const MONGODB_URI = 'mongodb+srv://abdulbasidhussain:nazeef123@cluster0.yflxqwa.mongodb.net/nazeetatbu?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
